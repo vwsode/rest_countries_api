@@ -1,0 +1,65 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  overflow: hidden;
+  cursor: pointer;
+
+  position: relative;
+
+  &.dark {
+    box-shadow: 0 0 4px 0 rgba(43, 42, 49, 0.67);
+    .block {
+      background-color: var(--blue-700);
+    }
+
+    .info-title, .info-value, .title {
+      color: var(--gray-100)
+    }
+  }
+
+  &.light {
+    box-shadow: 0 3px 8px 2px #00000010;
+  }
+}
+
+.flag {
+  height: 160px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.block {
+  padding: 24px 24px 42px 24px;
+}
+
+.title {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.infos {
+  display: flex;
+  gap: 2px;
+  flex-direction: column;
+}
+
+.info {
+}
+
+.info-title {
+  font-size: var(--app-fz-sm);
+}
+
+.info-value {
+  font-size: var(--app-fz-sm);
+  font-weight: 300;
+}
+
+.overlay-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

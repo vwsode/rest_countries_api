@@ -1,0 +1,15 @@
+body {
+  font-family: var(--app-ff);
+}
+
+.page {
+  min-height: 100vh;
+  
+  &.dark {
+    background-color: var(--blue-800);
+  }
+
+  &.light {
+
+  }
+}

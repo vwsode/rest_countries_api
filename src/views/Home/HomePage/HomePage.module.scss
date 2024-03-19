@@ -1,0 +1,27 @@
+.wrapper {
+  padding:80px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.search {
+  width: 480px;
+}
+
+.filter {
+  width: 200px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 74px;
+}

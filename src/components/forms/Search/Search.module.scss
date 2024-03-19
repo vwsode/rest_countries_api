@@ -1,0 +1,38 @@
+.search {
+  display: inline-flex;
+  align-items: center;
+
+  gap: 26px;
+  border-radius: 4px;
+  padding: 0 32px;
+  height: 56px;
+
+  &.dark {
+    background-color: var(--blue-700);
+    color: var(--gray-100);
+    box-shadow: 0 0 4px 0 rgba(43, 42, 49, 0.67);
+
+    .input {
+      color: var(--gray-200);
+    }
+  }
+
+  &.light {
+  }
+
+}
+
+.icon {
+
+}
+
+.input {
+  background-color: transparent;
+  border: none;
+  font-size: var(--app-fz-sm);
+  width: 100%;
+
+  &::placeholder {
+    color: inherit;
+  }
+}

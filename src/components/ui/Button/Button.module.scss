@@ -1,0 +1,22 @@
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  gap: 14px;
+  border: none;
+
+  border-radius: 4px;
+  font-weight: 300;
+  height: 40px;
+
+  &.dark {
+    box-shadow: 0 0 8px 0 rgba(43, 42, 49, 0.67);
+    background-color: var(--blue-700);
+    color: var(--gray-200);
+  }
+
+  &.light {
+    box-shadow: 0 3px 8px 2px #00000010;
+  }
+}
